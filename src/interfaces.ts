@@ -2,6 +2,7 @@ export interface Job {
   title: string;
   company: string;
   location: string;
+  companyUrl?: string;
   dates: string;
   tags: string[];
   bullets: string[];
