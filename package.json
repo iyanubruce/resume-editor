@@ -1,0 +1,20 @@
+{
+  "name": "resume-editor",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "docx": "^9.6.1",
+    "dotenv": "^17.4.0",
+    "groq-sdk": "^1.1.2"
+  }
+}
